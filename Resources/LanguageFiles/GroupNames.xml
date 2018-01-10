@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<languages>
+  <language name="English" id="en">
+    <groups>
+      <default>Default</default>
+      <metadata>SEO</metadata>
+      <news>News</news>
+      <products>Products</products>
+      <sitesettings>Site settings</sitesettings>
+      <specialized>Specialized</specialized>
+    </groups>
+  </language>
+</languages>

@@ -1,0 +1,22 @@
+﻿/* Styles used by the TinyMCE editor */
+
+h2 {
+    EditMenuName: header2;
+}
+
+h3 {
+    EditMenuName: header3;
+}
+
+p.lead { 
+    EditMenuName: introduction;
+}
+
+img.img-rounded {
+    EditMenuTitle: image;
+    EditMenuName: imagerounded;
+}
+
+img.img-polaroid {
+    EditMenuName: imagepolaroid;
+}

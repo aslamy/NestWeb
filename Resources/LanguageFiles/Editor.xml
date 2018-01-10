@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<languages>
+    <language name="English" id="en">
+        <editorstyleoptions>
+            <heading2>Heading 2</heading2>
+            <heading3>Heading 3</heading3>
+            <imagepolaroid>Image Polaroid</imagepolaroid>
+            <imagerounded>Image Rounded</imagerounded>
+            <image>Image</image>
+            <introduction>Introduction</introduction>
+        </editorstyleoptions>
+    </language>
+</languages>
