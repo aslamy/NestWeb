@@ -8,6 +8,6 @@ namespace EpiserverSite
 {
     public class TestClass
     {
-        //private ElasticClient client;
+        private ElasticClient clinet;
     }
 }
