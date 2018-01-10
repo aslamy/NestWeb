@@ -196,7 +196,7 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="Nest, Version=6.0.0.0, Culture=neutral, PublicKeyToken=96c599bbe3e70f5d, processorArchitecture=MSIL">
-      <HintPath>packages\NEST.6.1.0-ci1229163028\lib\net45\Nest.dll</HintPath>
+      <HintPath>packages\NEST.6.1.0-ci1229162848\lib\net45\Nest.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
@@ -361,7 +361,6 @@
     <Compile Include="Models\SiteContentType.cs" />
     <Compile Include="Models\SiteImageUrl.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TestClass.cs" />
     <Compile Include="Views\Blocks\BlockPreview.aspx.cs">
       <DependentUpon>BlockPreview.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -611,6 +610,107 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
+    <Content Include="App_Data\EPiServerDB_fc853ace.mdf" />
+    <Content Include="App_Data\EPiServerDB_fc853ace_log.ldf">
+      <DependentUpon>EPiServerDB_fc853ace.mdf</DependentUpon>
+    </Content>
+    <Content Include="bin\Antlr3.Runtime.dll" />
+    <Content Include="bin\Antlr3.Runtime.pdb" />
+    <Content Include="bin\Castle.Core.dll" />
+    <Content Include="bin\Castle.Core.xml" />
+    <Content Include="bin\Castle.Windsor.dll" />
+    <Content Include="bin\Castle.Windsor.xml" />
+    <Content Include="bin\Elasticsearch.Net.dll" />
+    <Content Include="bin\Elasticsearch.Net.xml" />
+    <Content Include="bin\EntityFramework.dll" />
+    <Content Include="bin\EntityFramework.SqlServer.dll" />
+    <Content Include="bin\EntityFramework.SqlServer.xml" />
+    <Content Include="bin\EntityFramework.xml" />
+    <Content Include="bin\EPiServer.ApplicationModules.dll" />
+    <Content Include="bin\EPiServer.Cms.Shell.UI.dll" />
+    <Content Include="bin\EPiServer.Configuration.dll" />
+    <Content Include="bin\EPiServer.Configuration.xml" />
+    <Content Include="bin\EPiServer.Data.Cache.dll" />
+    <Content Include="bin\EPiServer.Data.dll" />
+    <Content Include="bin\EPiServer.Data.xml" />
+    <Content Include="bin\EPiServer.dll" />
+    <Content Include="bin\EPiServer.Enterprise.dll" />
+    <Content Include="bin\EPiServer.Enterprise.xml" />
+    <Content Include="bin\EPiServer.Events.dll" />
+    <Content Include="bin\EPiServer.Events.xml" />
+    <Content Include="bin\EPiServer.Find.Blocks.dll" />
+    <Content Include="bin\EPiServer.Find.Cms.dll" />
+    <Content Include="bin\EPiServer.Find.Cms.xml" />
+    <Content Include="bin\EPiServer.Find.dll" />
+    <Content Include="bin\EPiServer.Find.Framework.dll" />
+    <Content Include="bin\EPiServer.Find.Framework.xml" />
+    <Content Include="bin\EPiServer.Find.Optimizations.dll" />
+    <Content Include="bin\EPiServer.Find.Statistics.dll" />
+    <Content Include="bin\EPiServer.Find.UI.dll" />
+    <Content Include="bin\EPiServer.Find.xml" />
+    <Content Include="bin\EPiServer.Framework.dll" />
+    <Content Include="bin\EPiServer.Framework.xml" />
+    <Content Include="bin\EPiServer.ImageLibrary.dll" />
+    <Content Include="bin\EPiServer.Licensing.dll" />
+    <Content Include="bin\EPiServer.LinkAnalyzer.dll" />
+    <Content Include="bin\EPiServer.Logging.Log4Net.dll" />
+    <Content Include="bin\EPiServer.Packaging.CmdAPI.dll" />
+    <Content Include="bin\EPiServer.Packaging.dll" />
+    <Content Include="bin\EPiServer.Packaging.UI.dll" />
+    <Content Include="bin\EPiServer.Shell.dll" />
+    <Content Include="bin\EPiServer.Shell.UI.dll" />
+    <Content Include="bin\EPiServer.UI.dll" />
+    <Content Include="bin\EPiServer.Web.WebControls.dll" />
+    <Content Include="bin\EPiServer.Web.WebControls.xml" />
+    <Content Include="bin\EPiServer.XForms.dll" />
+    <Content Include="bin\EPiServer.XForms.xml" />
+    <Content Include="bin\EPiServer.xml" />
+    <Content Include="bin\EpiserverSite.dll" />
+    <Content Include="bin\EpiserverSite.pdb" />
+    <Content Include="bin\log4net.dll" />
+    <Content Include="bin\log4net.xml" />
+    <Content Include="bin\Microsoft.Web.Infrastructure.dll" />
+    <Content Include="bin\Microsoft.Web.XmlTransform.dll" />
+    <Content Include="bin\Nest.dll" />
+    <Content Include="bin\Newtonsoft.Json.dll" />
+    <Content Include="bin\Newtonsoft.Json.xml" />
+    <Content Include="bin\NuGet.Core.dll" />
+    <Content Include="bin\StructureMap.dll" />
+    <Content Include="bin\StructureMap.Net4.dll" />
+    <Content Include="bin\StructureMap.Net4.pdb" />
+    <Content Include="bin\StructureMap.pdb" />
+    <Content Include="bin\StructureMap.Web.dll" />
+    <Content Include="bin\StructureMap.Web.pdb" />
+    <Content Include="bin\StructureMap.xml" />
+    <Content Include="bin\System.Net.Http.Extensions.dll" />
+    <Content Include="bin\System.Net.Http.Extensions.xml" />
+    <Content Include="bin\System.Net.Http.Formatting.dll" />
+    <Content Include="bin\System.Net.Http.Formatting.xml" />
+    <Content Include="bin\System.Net.Http.Primitives.dll" />
+    <Content Include="bin\System.Net.Http.Primitives.xml" />
+    <Content Include="bin\System.Threading.Tasks.Dataflow.dll" />
+    <Content Include="bin\System.Threading.Tasks.Dataflow.xml" />
+    <Content Include="bin\System.Web.Helpers.dll" />
+    <Content Include="bin\System.Web.Helpers.xml" />
+    <Content Include="bin\System.Web.Http.dll" />
+    <Content Include="bin\System.Web.Http.WebHost.dll" />
+    <Content Include="bin\System.Web.Http.WebHost.xml" />
+    <Content Include="bin\System.Web.Http.xml" />
+    <Content Include="bin\System.Web.Mvc.dll" />
+    <Content Include="bin\System.Web.Mvc.xml" />
+    <Content Include="bin\System.Web.Optimization.dll" />
+    <Content Include="bin\System.Web.Optimization.xml" />
+    <Content Include="bin\System.Web.Providers.dll" />
+    <Content Include="bin\System.Web.Providers.xml" />
+    <Content Include="bin\System.Web.Razor.dll" />
+    <Content Include="bin\System.Web.Razor.xml" />
+    <Content Include="bin\System.Web.WebPages.Deployment.dll" />
+    <Content Include="bin\System.Web.WebPages.Deployment.xml" />
+    <Content Include="bin\System.Web.WebPages.dll" />
+    <Content Include="bin\System.Web.WebPages.Razor.dll" />
+    <Content Include="bin\System.Web.WebPages.Razor.xml" />
+    <Content Include="bin\System.Web.WebPages.xml" />
+    <Content Include="bin\WebGrease.dll" />
     <Content Include="ClientResources\Images\icons\layoutIcons24x24.png" />
     <Content Include="ClientResources\Scripts\Editors\StringList.js" />
     <Content Include="ClientResources\Styles\LayoutIcons.css" />
@@ -711,6 +811,7 @@
     <Content Include="Web.config" />
     <Content Include="App_Data\GeoLiteCity.dat" />
     <Content Include="App_Data\DefaultSiteContent.episerverdata" />
+    <Content Include="bin\EpiserverSite.dll.config" />
     <None Include="EPiServerLog.config" />
     <Content Include="packages.config" />
     <Content Include="modules\_protected\Shell\web.config" />
